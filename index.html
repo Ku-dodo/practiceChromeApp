@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<!DOCTYPE html>
+
+<body>
+
+    <div id="main-Board" class="wrapper">
+        <div id="time-panel">
+            <span id="hour" class="font-B">--</span>
+            <span id="time-point" class="font-B">:</span>
+            <span id="min" class="font-B">--</span>
+            <div id="mini-panel">
+                <span id="amPm" class="font-M">--</span>
+                <span id="sec" class="font-M">--</span>
+            </div>
+        </div>
+        <form id="username-form">
+            <input required type="text" placeholder="What u are name?" maxlength="15">
+        </form>
+        <span id="userName" class="hide"></span>
+    </div>
+    <div class="wrapper">
+        <div id="weather">
+            <span id="temp"></span>
+            <span id="city"></span>
+        </div>
+    </div>
+
+    <div id="todo-Board" class="wrapper">
+        <form id="todo-form">
+            <input required type="text" placeholder=" 오늘 해야하는 일을 적고 엔터를 누르세요.">
+        </form>
+        <div id="todo-box">
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+
+
+    <script src="js/greeting.js"></script>
+    <script src="js/weather.js" type="module"></script>
+    <script src="js/time.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/api-key.js"></script>
+</body>
+
+</html>

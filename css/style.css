@@ -1,0 +1,124 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.wrapper .font-B {
+  font-size: 600%;
+}
+
+.wrapper .font-M {
+  font-size: 200%;
+}
+
+#main-Board {
+  margin-top: 30px;
+}
+
+#weather {
+  margin: 40px;
+  width: 250px;
+  height: 25px;
+  background-color: rgba(240, 248, 255, 0.1);
+  border-bottom: 1px solid aliceblue;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#weather span {
+  text-align: center;
+  font-size: 10px;
+  color: aliceblue;
+}
+
+#time-panel {
+  place-items: center;
+  width: 295px;
+  height: 128px;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+
+  grid-template-columns: 110px 25px 110px 50px;
+}
+
+#time-panel div {
+  display: inline;
+}
+
+#time-panel span {
+  color: aliceblue;
+}
+
+#mini-panel {
+  padding-left: 10px;
+}
+
+#mini-panel span {
+  width: 50px;
+  height: 85.33px;
+  align-items: center;
+}
+
+#userName {
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#todo-form {
+  padding: 20px;
+}
+#todo-list {
+  color: aliceblue;
+  margin: 0px;
+  padding-left: 25px;
+}
+
+#todo-list li {
+  list-style: none;
+  border-radius: 3px;
+  width: 300px;
+  height: 20px;
+}
+
+#todo-list button {
+  text-align: center;
+  padding: 0px;
+  width: 25px;
+  height: 20px;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_1280.jpg");
+  background-size: cover;
+  /* width: 100%;
+  height: 100%; */
+}
+
+input {
+  margin: 5px;
+  width: 300px;
+  height: 20px;
+  font-size: 11px;
+  color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.1);
+  border: 0px;
+  border-bottom: 1px solid aliceblue;
+  border-radius: 3px;
+}
+input::placeholder {
+  color: rgba(240, 248, 255, 0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
